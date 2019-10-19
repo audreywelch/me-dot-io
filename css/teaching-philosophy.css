@@ -1,0 +1,8 @@
+.c-main-logo {
+    background-color: #009939 !important;
+    color: #fff;
+    -webkit-print-color-adjust: exact;
+    z-index: 9000;
+    box-shadow: inset 0 0 0 1000px #009939;
+    border: none !important;
+}

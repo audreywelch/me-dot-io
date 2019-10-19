@@ -1,0 +1,50 @@
+@media print {
+    .c-main-logo {
+        background-color: #d81e17 !important;
+        -webkit-print-color-adjust: exact;
+      }
+}
+
+.c-main-logo {
+        background-color: #d81e17 !important;
+        color: #fff;
+        -webkit-print-color-adjust: exact;
+        z-index: 9000;
+        box-shadow: inset 0 0 0 1000px #d81e17;
+        border: none !important;
+}
+
+.standard-resume ul.tags li {
+    background-color: #f1f5f7;
+    box-shadow: inset 0 0 0 1000px #f1f5f7;
+    border: none !important;
+}
+
+.print-contact {
+    display: block !important;
+}
+
+.contact-label {
+    float: left;
+    margin-right: 5px;
+}
+
+.standard-resume .sr-section h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 12px;
+    padding-top: 10px;
+}
+
+.standard-resume .sr-section h2 {
+    margin-top: 45px;
+    margin-bottom: 26px;
+    color: #c9cccf;
+}
+
+h4 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
